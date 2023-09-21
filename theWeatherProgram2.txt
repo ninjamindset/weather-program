@@ -1,0 +1,84 @@
+// which top should I wear to keep me cool when I go outside?
+function itsHot(szl) {
+
+let top = "";
+switch (szl) {
+  case 1:
+    top = "shirt";
+    console.log("Sixty degree weather means you will probably want to dress fashionably warm.");
+    break;
+  case 2:
+    top = "hoodie";
+    console.log("In seventy degree weather a hoodie is light and casual! If not a hoodie, what would you like to wear?");
+    break;
+  case 3:
+    top = "jacket";
+    console.log("Feel free to show some skin if you are so inclined. It is beautiful outside.");
+    break;
+  case 4:
+    top = "coat";
+    console.log("You only really need a shirt in this kind of weather unless you have business to dress for.");
+    break;
+}
+}
+
+
+// which top should I wear to keep me warm when I go outside?
+function itsCold(brr) {
+
+let top = "";
+switch (brr) {
+  case 1:
+    top = "shirt";
+    console.log("Is it twenty degree weather? Wear at least three layers of clothing with some gloves to keep you warm!");
+    break;
+  case 2:
+    top = "hoodie";
+    console.log("Around thirty degrees? Wear enough layers of clothing to keep you from feeling chilly!");
+    break;
+  case 3:
+    top = "jacket";
+    console.log("You can get away with a few layers with a thick coat in fourty degree weather!");
+    break;
+  case 4:
+    top = "coat";
+    console.log("In fifty degree weather a light coat or jacket will be enough!");
+    break;
+}
+}
+
+// Do we have inclement weather?
+function weatherConditions(theSkies) {
+  
+  let weatherType = "";
+  switch (theSkies) {  
+    case 1: 
+     weatherType = "Rain";
+      console.log(" And please remember to take an umbrella with you, it is raining.");
+     break;
+    case 2:
+      weatherType = "Snow";
+      console.log(" Be careful as you walk today as it is snowing. Would you like an umbrella?");
+      break;
+    case 3:
+      weatherType = "Sleet";
+      console.log(" The floor will be wet and icy because of sleet. Consider taking an extra pair of shoes on your travels today.");
+      break;
+    case 4:
+      weatherType = "Humid";
+       console.log(" It is quite hot and humid outside. Help yourself to an extra bottle of water in case you need something to drink.");
+      break;  
+    case 5:
+      weatherType = "Windy";
+       console.log("Secure your belongings and tighten your clothing! It may be blown away.");
+      break;
+    case 6:
+      weatherType = "Fog";
+       console.log("You may experience limited visibility on your travels today. Please be vigilant.");
+      break;
+    case 7:
+	weatherType = "Clear";
+	console.log("There are currently no weather conditions to report."
+	break;
+  } 
+}
