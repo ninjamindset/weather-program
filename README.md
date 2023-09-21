@@ -4,9 +4,9 @@
 >> I want to make a simple weather program using case switches which refer to a certain number of degrees with a line at the bottom that fuses the temperature into a sentence about the weather condition. My hope was to write a program connected to this one in which this program assists in closet organzation, organizing the clothes one wears according to the weather so it's easier to know what to wear.
 
 >> I use case switches for the hot and cold temperatures from 20 to 90 degrees...
->> line 18 starts with the heat
->> line 42 starts with the cold
->> at line 69 I use an array to combine the case switches of the functions at 18 & 42
+>> line 16 starts with the heat
+>> line 40 starts with the cold
+>> at line 69 I use an array to combine the case switches of the functions at 16 & 40
 >> and at line 111 I assemble the weather conditions (with more switches)
 >> line 148 is where I would like the line to print out a temperature with its condition ( i have a randomizer on the side in hopes I could print random weather conditions and get different results)
 
